@@ -99,7 +99,12 @@
 
 @media (max-width: 480px) {
   .social-desc { display: none; }
-  .social-card { grid-template-columns: 2.25rem 1fr auto; }
+  .social-card {
+    grid-template-columns: 2.25rem 1fr auto;
+    padding: 0.5rem 0.75rem;
+  }
+  .social-list { gap: 0.25rem; }
+  .social-section { gap: 0.5rem; }
 }
 
 .social-arrow {
